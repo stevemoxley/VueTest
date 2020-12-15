@@ -1,10 +1,10 @@
 ﻿var path = require('path');
 
 module.exports = {
-    mode: 'development',
+    mode: 'production',
     entry: './wwwroot/js/site.js',
     output: {
-        path: path.resolve(__dirname, 'dist'),
+        path: path.resolve(__dirname, 'wwwroot/dist'),
         filename: 'site.bundle.js'
     },
     resolve: {
